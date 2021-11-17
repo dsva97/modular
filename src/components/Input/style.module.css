@@ -1,0 +1,14 @@
+.label {
+  background: yellow;
+  container-type: inline-size;
+  color: red;
+}
+
+@container (min-width: 600px) {
+  .span {
+    color: blue;
+  }
+  .input {
+    color: green;
+  }
+}

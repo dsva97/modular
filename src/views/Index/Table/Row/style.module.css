@@ -1,0 +1,14 @@
+.row {
+  background: yellow;
+  container-type: inline-size;
+  color: red;
+}
+
+@container (min-width: 600px) {
+  .cell {
+    color: blue;
+  }
+  .actions {
+    color: green;
+  }
+}
